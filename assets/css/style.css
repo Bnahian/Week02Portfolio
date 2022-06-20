@@ -75,6 +75,18 @@ body {
         width: 225px;
       }
 
+    .horiseonpage {
+        top: 30px;
+        left: 30px;
+        height:900px;
+        width: 725px;
+
+
+    }
+
+
+      
+
       
 
       /*Work section style*/
@@ -107,7 +119,7 @@ body {
     margin-left: 15px;
     }
   
-.contact-info ul li a {
+ .contact-info ul li a {
       margin: 0 30px;
       font-size: 18px;
       color:cornflowerblue;
@@ -115,6 +127,64 @@ body {
       border-bottom: 4px solid;
       padding-bottom: 4px;
     }
+
+    @media screen and (max-width: 800px) {
+        header {
+          padding-bottom: 10px;
+          justify-content: center;
+          position:relative;
+        }
+    }
+
+    header h1 {
+        width: 80%;
+        text-align: center;
+      }
+
+      header nav ul {
+        margin-top: 35px;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+    
+      }
+
+      header nav ul li a {
+        font-size: 13px;
+        
+    }
+  
+      .hero{
+        background-size: cover;
+      }
+
+      .nahianpic {
+        height: 200px;
+        width:150px;
+      }
+
+      .section-title {
+        width: 80%;
+        text-align: right;
+        }
+
+     .contact-info ul {     
+            width: 80%;
+            justify-content: left;
+            flex-direction: column;      
+        }
+          
+      .contact-info ul li a {
+              font-size: 18px;
+              flex-direction:column;
+               
+              
+        }
+
+    
+
+      
+
   
 
   
