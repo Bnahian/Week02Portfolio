@@ -7,17 +7,18 @@
 body {
     color:cornflowerblue;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(255, 255, 255, 0.936) (229, 232, 238);
+    background-color: rgba(86, 75, 119, 0.288) (229, 232, 238);
   }
 
   .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #2b1414;
   }
 
-    /* apply styles to <header> */
+<!--applied styles to header-->
     header {
         padding: 20px 25px;
         background-color: #36a6ae;
@@ -30,6 +31,7 @@ body {
     header h1 {
         font-weight: bold;
         font-size: 36px;
+        justify-content: center;
         color:black;
         margin: 10;
       }
@@ -67,7 +69,7 @@ body {
         position: relative;
       }
       
-      /*Added my photo*/
+      
     .nahianpic {
         top: 30px;
         left: 30px;
@@ -84,12 +86,6 @@ body {
 
     }
 
-
-      
-
-      
-
-      /*Work section style*/
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -159,7 +155,7 @@ body {
       }
 
       .nahianpic {
-        height: 200px;
+        height:200px; 
         width:150px;
       }
 
