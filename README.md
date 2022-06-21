@@ -1,5 +1,5 @@
 # Week02Portfolio
-For Week 02, I was asked to build a portfolio. This is the linnk to the site:
+For Week 02, I was asked to build a portfolio. This is the link to the site: https://bnahian.github.io/Week02Portfolio/ url
 
 Built the HTML.
 
@@ -9,7 +9,7 @@ Used display inline to the nav lines so that they fall in a row.
 
 Gave classes 
 
-Added <br> to give breaks in a paragraph
+Added break tags to give breaks in a paragraph
 
 Added CSS images
 
